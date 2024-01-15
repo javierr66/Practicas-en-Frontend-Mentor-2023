@@ -7,14 +7,17 @@
   }
   body{
     background-color: hsl(30, 38%, 92%);
+    
   }
 .card{
-width: 1440px;
+width: 45%;
+height: 500px;
 background-color: hsl(0, 0%, 100%);
-margin: 5rem auto;
+margin: 10rem auto;
 border-radius: 10px;
 display: flex;
 position: center;
+
 
 }
 .card_img{
@@ -28,31 +31,31 @@ border-bottom-left-radius: 10px;
 .card_text{
   
   font-family: 'Montserrat', sans-serif;
-margin: 1rem;
-margin-right: 20rem;
+margin: 0rem;
+margin-right: 0rem;
 }
 
 .card_title{
-margin: 2rem;
+margin: 2.2rem 2rem 0rem 2rem;
 color: hwb(0 68% 30%);
-font-size: 2rem;
-letter-spacing: 0.5rem;
+font-size: 14px;
+letter-spacing: 0.3rem;
 text-transform: uppercase;
 
 
 }
 .card_sub_title{
-font-size: 5rem;
-margin: 2rem;
+font-size: 2.2rem;
+margin: 1rem 2rem 0rem 2rem;
 font-family: 'Fraunces', serif;
+font-weight: 700;
 }
 .card_paragraph{
-margin: 2rem;
-margin: 0.5rem, 1rem , 0.5rem, 0.5rem;
+margin: 0.8rem 3rem 2rem 2rem;
 color: hwb(0 68% 30%);
 padding: 0.1rem;
 line-height: 1.5;
-font-size: 2rem;
+font-size: 14px;
 }
 
 .card_prices{
@@ -63,24 +66,25 @@ display: flex;
 width: 12rem;
 height: 4rem;
 margin: 0.5rem;
-margin-right: -1.5rem;
+margin-right: -3rem;
 text-decoration: none;
 text-align: center;
 color: hsl(158, 36%, 37%);
-
-font-size: 3rem;
+font-weight: 700;
+font-size: 2.2rem;
 
 
 }
 .card_old_price{
 width: 7rem;
-height: 4rem;
+height: 2rem;
 margin: 0.5rem;
 padding-top: 1rem;
 text-align: center;
-font-size: 1.2rem;
+font-size: 14px;
 text-decoration-line: line-through;
 color: hwb(0 68% 30%);
+
 
 }
 .card_buttom{
@@ -89,11 +93,13 @@ color: white;
 background-color: hsl(158, 36%, 37%);
 text-decoration: none;
 font-weight: bold;
-width: 300px;
+width: 80%;
+height: 3.2rem;
 padding: 1rem;
-margin: 1rem auto;
+margin: 0rem auto;
 border-radius: 0.6rem;
 text-align: center;
+font-size: 14px;
 }
 .card_buttom:hover{
   background-color: hsl(158, 45%, 21%);
@@ -103,12 +109,31 @@ text-align: center;
   text-align: center;
 }
 
+.btn-back{
+  width: 5rem;
+  height: 3rem;
+  position: relative;
+  top: 2rem;
+}
+.link-back{
+  width: 100%;
+  height: 100%; 
+  transition: 0.4s;
+}
+.link-back:hover{
+  border-radius: 0.5rem;
+  background-color: rgb(152, 152, 159);
+  
+}
+
+
 @media (max-width:375px) {
 
   .card{
     display: flex;
     flex-direction: column;
-    width: 375px;
+    width: 92%;
+    height: 95%;
     margin: 1rem auto;
     border-radius: 10px;
   }
@@ -118,40 +143,51 @@ text-align: center;
   }
   .card_img_mobile{
     display: flex;
-    width: 375px;
+    width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
   }
   .card_text{
    margin: 0.1rem;
+   margin-left: -0.5rem;
    
     }
  
 .card_title{
-  font-size: 1rem;
+  font-size: 14px;
   letter-spacing: 0.3rem;
   margin-top: 1rem;
   margin-bottom: 0;
 }
 .card_sub_title{
-  font-size: 2.5rem;
-  margin-top: 0.7rem;
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
   margin-right: 1rem;
   margin-bottom: 0;
 }
 .card_paragraph{
-  font-size: 1rem;
+  font-size: 14px;
   margin-top: 1rem;
   margin-bottom: 0;
-  margin-right: 1rem;
+  margin-right: 0.4rem;
 }
 .card_price{
   font-family: 'Fraunces', serif;
-  margin-left: 2rem;
+  margin-left: 0..5rem;
+  
 }
 .card_buttom{
-  margin-top: 0;
-  margin-left: 2rem;
+  width: 18.6rem;
+  margin-top: -1rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.btn-back{
+  width: 4rem;
+  height: 2rem;
+  position: relative;
+  top: 0.5rem;
 }
 
 }
+
